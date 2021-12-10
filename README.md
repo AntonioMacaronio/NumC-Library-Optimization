@@ -1,5 +1,7 @@
 # NumC
 
+In this project, I implemented various functions in the NumPy library in C to speed up computationally-heavy level tasks. This was achieved through a combination of data-level parallelism, thread-level parallelism, loop unrolling, and clever algorithms. 
+
 Various optimizations:
 1. SIMD data-level parallelism: this was used in matrix addition, subtraction, multiplication, and powering. This allowed speedups of 4x.
 2. OpenMP API tread-level parallelism: these methods were also used in matrix addition, subtraction, mutliplication, and powering. Also 
